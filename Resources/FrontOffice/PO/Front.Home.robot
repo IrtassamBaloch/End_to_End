@@ -10,7 +10,7 @@ ${HOME INTRO HEADING} =             It's Nice To Meet You
 
 *** Keywords ***
 Load Web App
-    go to    ${Front_START URL}
+    go to    ${FRONT_OFFICE_URL}
 
 Verify Page Loaded
     page should contain    ${HOME INTRO HEADING}
